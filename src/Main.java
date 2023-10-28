@@ -73,8 +73,21 @@ public class Main {
 
         // 4 Задача
 
-        int [] arr = {1 + 1, 3 + 1, 5 + 1}; // Ну либо просто клацать "2, 4, 6"
-        System.out.println(Arrays.toString(arr));
+        for (int i = 0; i < massive.length; i++) {
+            if (massive[i] % 2 > 0) {
+                massive[i]++;
+            }
+        }
+        System.out.println(Arrays.toString(massive));
+
+
+
+
+        // 2 ЧАСТЬ ЗАДАНИЙ
+
+        // 1 Задача
+
+        
 
     }
 }
